@@ -9,6 +9,7 @@ public class Page2Activity extends AppCompatActivity {
     public void test2(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        finish();
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

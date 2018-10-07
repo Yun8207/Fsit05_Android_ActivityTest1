@@ -12,6 +12,11 @@
        android:layout_height="wrap_content"
        android:text="Test1"
        android:onClick="test1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="die"
+        android:onClick="die"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
